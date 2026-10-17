@@ -29,4 +29,11 @@ def decrypt(original_text, shift_amount):
         #print("Wrong code")
 
 
+def caesar(original_text, shift_amount, chosen_direction):
+    if direction == "encode":
+        encrypt(original_text=text, shift_amount=shift)
+    elif direction == "decode":
+        decrypt(original_text=text, shift_amount=shift)
+
+
 encrypt(text, shift)
